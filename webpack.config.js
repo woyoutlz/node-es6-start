@@ -2,7 +2,7 @@ module.exports = {
     entry: ['babel-polyfill', './app.js'],
     output: {
         path: "dist",
-        filename: 'out.js',
+        filename: 'app.js',
         publicPath: 'static/dist/'
     },
     module: {
